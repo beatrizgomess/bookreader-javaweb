@@ -7,15 +7,19 @@ and open the template in the editor.
 <html>
     <head>
         <meta charset="UTF-8">
-      
+        <link rel="stylesheet" type="text/css" href="style_register.css" media="screen"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
         <div class="header">
-            <img class="img" src="book-stack.png" alt="">
-            <p class="title"> Books Reader</p>
-            </div>
-        <div class="line"></div>
+         <img class="img" src="images/book-stack.png" alt="">
+         <p class="title"> Books Reader</p>
+        </div>
+       
+            
+        <p class="line"></p>
+        
+        <img id="item6" src="images/open-book.png" alt="">
         <form class="campos" method="post" action="BookRegistrationServlet">
             <div class="form">
                 Titulo: <input type="text" name="title"><br>
@@ -24,17 +28,28 @@ and open the template in the editor.
                 <br>
                 Autor: <input type="text" name="author"><br>
                 <br>
-                Ano de Publicação <input type="text" name="yearPublication"><br>
+                Ano de Publicação: <input type="text" maxlength="4" name="yearPublication"><br>
                 <br>
                 Editora: <input type="text" name="publishingCompany"><br>
                 <br>
-                Status: <input type="text" name="status"><br>
+                Status: <select name="Status">
+                    <option id="item1" value="nenhum">Nenhum</option>
+                    <option id="item2" value="Lendo">Lendo</option>
+                    <option id="item3" value="Lendo">Quero Ler</option>
+                    <option value="Lendo">Já li</option>
+                    <option value="Lendo">Relendo</option>
+                    <option value="Lendo">Abandonei</option>
+                </select>
+                
+                
                 <br>
                 <br>
                 <br>
                 <input type="submit" value="Salvar na TBR"/>
             </div>
+             
             </form>
+       
         
             
     </body>

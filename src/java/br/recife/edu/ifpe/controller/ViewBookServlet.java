@@ -36,23 +36,28 @@ public class ViewBookServlet extends HttpServlet {
           
             out.println("<!DOCTYPE html>");
             out.println("<html>");
-            out.println("<head>");
+            out.println("<head><link rel=\"stylesheet\" type=\"text/css\" href=\"book_register.css\" media=\"screen\"/>");
             out.println("<title>Livros da sua TBR</title>");            
             out.println("</head>");
             out.println("<body>");
-            out.println("<h1>Livros da sua TBR</h1>");
-            out.println("<a href=\"index.html\">home</a>");
-            out.println("<table border='1'> ");
+            out.println("<div><img class=\"img\" src=\"images/book-stack.png\" alt=\"\"></div>");
+            out.println("<h1 class='title'>Livros da sua TBR</h1>");
+            out.println("<div><i class=\"fa-duotone fa-house-chimney\"></i></div>");
+            out.println("<a class='home' href=\"index.html\">HOME</a>");
+            out.println("<p class=\"line\"></p>");
+            out.println("<table > ");
             
             out.println("<tr>"
-                    + "<th>id</th>"
+                    + "<th>ID</th>"
                     + "<th>Titulo</th>"
-                    + "<th>Subtitulo</th>"
+                    + "<th id='sub'>Subtitulo</th>"
                     + "<th>Autor</th>"
                     + "<th>Ano de publicação</th>"
                     + "<th>Editora</th>"
-                    + "<th>Stauts</th>"
-                    + "<th>Opções</th>"
+                    + "<th>Status</th>"
+                    + "<th>Visualizar</th>"
+                    + "<th>Alterar</th>"
+                    + "<th>Deletar</th>"
                     + "</tr>");
             
             for(Books l: books){
@@ -60,14 +65,14 @@ public class ViewBookServlet extends HttpServlet {
                         "<tr>"
                         + "<td>" + l.getId() + "</td>"
                         + "<td>" + l.getTitle() + "</td>"
-                        + "<td>" + l.getSubtitle() + "</td>"
+                        + "<td id='sub'>" + l.getSubtitle() + "</td>"
                         + "<td>" + l.getAuthor() + "</td>"
                         + "<td>" + l.getYearPublication() + "</td>"
                         + "<td>" + l.getPublishingCompany() + "</td>"
                         + "<td>" + l.getStatus() + "</td>"
                         + "<td><a href='OpenBookServlet?id=" +l.getId()+"'> Visualizar</a>"
-                        + "<td><a href='ShowBookChangesServlet?id="+ l.getId()+"'> Alterar</a>" 
-                        + "<a href='DeleteBookServlet?id="+ l.getId()+"'> Deletar</a>"
+                        + "<td><a href='ShowBookChangesServlet?id="+ l.getId()+"'> Alterar</a></td>" 
+                        + "<td id='delete'><a href='DeleteBookServlet?id="+ l.getId()+"'> Deletar</a></td>"
                         + "</td>"
                         + "</tr>");
                 
@@ -76,6 +81,7 @@ public class ViewBookServlet extends HttpServlet {
             out.println("</table>");
             out.println("</body>");
             out.println("</html>");
+            
         }
     }
 
