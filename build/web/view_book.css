@@ -1,0 +1,91 @@
+.title{
+    font-family:Courier, "Lucida Console", monospace;
+    font-size: 50px;
+    margin-left: 20%;
+    margin-top: -8%;
+    
+    
+}
+
+.title:hover{
+    color: rgb(218, 123, 0);
+}
+
+.line{
+    border: 1px solid white;
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+
+
+body{
+    background: rgb(238, 216, 118);
+    
+}
+
+img{
+    margin-left: 2%;
+}
+
+.home{
+    margin-left: 20%;
+    margin-top: -5%;
+    margin-bottom: 5%;
+    font-family:Courier, "Lucida Console", monospace;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.home:hover{
+    color: rgb(218, 123, 0);
+}
+
+table{
+    margin: auto;
+    font-family: Courier, "Lucida Console", monospace;
+    font-size: 30px;
+    text-align: center;
+    border: 2px solid white;
+    color: white;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg,   rgb(161, 118, 207) 100%, rgb(161, 118, 207) 100%,  rgb(237, 227, 120) 100%);  
+    border-radius: 50px;
+    
+}
+
+table th{
+    padding: 18px;
+    
+}
+
+table td{
+    padding-left: 10px;
+    padding-bottom: 5px;
+    
+}
+
+#delete{
+    padding-right: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+   color: rgb(238, 216, 118);
+   font-weight: 900;
+}
+
+table th:hover{
+     color: rgb(238, 216, 118);
+    
+}
+
+#sub{
+    padding-left: 2%;
+    padding-right: 2%;
+}

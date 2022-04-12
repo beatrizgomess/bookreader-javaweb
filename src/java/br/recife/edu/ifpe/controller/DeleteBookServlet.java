@@ -32,11 +32,13 @@ public class DeleteBookServlet extends HttpServlet {
           
             out.println("<!DOCTYPE html>");
             out.println("<html>");
+            out.println("<head><link rel=\"stylesheet\" type=\"text/css\" href=\"delete_book.css\" media=\"screen\"/>");
             out.println("<head>");
-            out.println("<title>Servlet DeleteBook</title>");            
+            out.println("<title>Livro Deletado</title>");            
             out.println("</head>");
             out.println("<body>");
-            out.println("<div>Livro deletado da TBR! </div>");
+            out.println("<h1>Livro deletado da TBR! </h1>");
+            out.println(" <p class=\"line\"></p>");
             out.println("<a href='ViewBookServlet'>Voltar para a estante</a>");
             out.println("</body>");
             out.println("</html>");
