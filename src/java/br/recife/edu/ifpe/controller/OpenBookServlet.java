@@ -32,17 +32,20 @@ public class OpenBookServlet extends HttpServlet {
           
             out.println("<!DOCTYPE html>");
             out.println("<html>");
+            out.println("<head><link rel=\"stylesheet\" type=\"text/css\" href=\"open_book.css\" media=\"screen\"/>");
             out.println("<head>");
             out.println("<title>Detalhes do Livro</title>");            
             out.println("</head>");
             out.println("<body>");
-            out.println("<h1>Livro: " + book.getTitle() + "</h1>");
-            out.println("Subtitulo: " + book.getSubtitle() + "<br>");
-            out.println("Autor: " + book.getAuthor() + "<br>");
-            out.println("Ano de publicação: " + book.getYearPublication()+ "<br>");
-            out.println("Editora: " + book.getPublishingCompany()+ "<br>");
-            out.println("Status: " + book.getStatus()+ "<br>");
-            out.println("<a href='ViewBookServlet'>Voltar para a TBR</a>");
+            out.println(" <p class=\"line\"></p>");
+            out.println("<h1> Livro: " + book.getTitle() + "</h1>");
+            out.println("<p class='info'>Subtitulo: " + book.getSubtitle() + "</br>" 
+                    + "Autor: " + book.getAuthor() + "</br>" 
+                    + "Ano de publicação: " + book.getYearPublication()+ "</br>"
+                    + "Editora: " + book.getPublishingCompany()+ "</br>"
+                    + "Status: " + book.getStatus()+ "</br></p>");
+            
+            out.println("<a id='home'href='ViewBookServlet'>Voltar para a TBR</a>");
             out.println("</body>");
             out.println("</html>");
         }
