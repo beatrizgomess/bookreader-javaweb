@@ -1,0 +1,36 @@
+body{
+    background: rgb(238, 216, 118);
+}
+
+h1{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family:Courier, "Lucida Console", monospace;
+    font-size: 50px;
+    margin-left: 2%;
+}
+a{
+    margin-left: 45%;
+    color: rgb(0, 0, 0);
+    font-family:Courier, "Lucida Console", monospace;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.line{
+    border: 1px solid white;
+    margin-top: 1%;
+}
+a:hover{
+     color: rgb(218, 123, 0);
+}
+
+h1:hover{
+     color: rgb(218, 123, 0);
+}
+
+.line{
+    border: 1px solid white;
+    margin-top: 1%;
+}

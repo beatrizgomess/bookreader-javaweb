@@ -42,12 +42,13 @@ public class BookRegistrationServlet extends HttpServlet {
            
             out.println("<!DOCTYPE html>");
             out.println("<html>");
+            out.println("<head><link rel=\"stylesheet\" type=\"text/css\" href=\"css/delete_book.css\" media=\"screen\"/>");
             out.println("<head>");
             out.println("<title>Servlet BookRegistrationServlet</title>");            
             out.println("</head>");
             out.println("<body>");
             out.println("<h1> Livro cadastrado com Sucesso!! </h1>");
-            out.println("<a href=\"index.html\">home</a>");
+            out.println("<a href=\"index.html\">Home</a>");
             out.println("</body>");
             out.println("</html>");
         }

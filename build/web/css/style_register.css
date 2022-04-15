@@ -8,11 +8,14 @@ body{
     color: rgb(0, 0, 0);
     font-family:Courier, "Lucida Console", monospace;
     font-size: 50px;
-   
     margin-left: 2%;
    
 
 }
+
+
+
+
 .title:hover{
     color: rgb(218, 123, 0);
 }
@@ -31,7 +34,6 @@ body{
     padding: 5% 5% 5% 5%;
     margin-left: 30%;
     margin-right: 30%;
-    
     background: rgb(2,0,36);
     background: linear-gradient(90deg,   rgb(161, 118, 207) 100%, rgb(161, 118, 207) 100%,  rgb(237, 227, 120) 100%);  
     border-radius: 50px;
@@ -47,6 +49,8 @@ body{
     display: grid;
     grid-gap: 10px;
 }
+
+
 
 img{
     

@@ -17,6 +17,20 @@
     margin-bottom: 5%;
 }
 
+a{
+ 
+    margin: auto;
+    color: rgb(0, 0, 0);
+    font-family:Courier, "Lucida Console", monospace;
+    font-size: 20px;
+    text-decoration: none;
+  
+}
+
+a:hover{
+     color: rgb(218, 123, 0);
+}
+
 
 body{
     background: rgb(238, 216, 118);
