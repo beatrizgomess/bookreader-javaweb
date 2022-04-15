@@ -43,11 +43,13 @@ public class ChangeBookServlet extends HttpServlet {
             
             out.println("<!DOCTYPE html>");
             out.println("<html>");
+           out.println("<head><link rel=\"stylesheet\" type=\"text/css\" href=\"css/alteracoesSalvas.css\" media=\"screen\"/>");
             out.println("<head>");
             out.println("<title>Servlet ChangeBook</title>");            
             out.println("</head>");
             out.println("<body>");
             out.println("<h1>O Contato foi alterado com Sucesso!</h1>");
+            out.println("<p class=\"line\"></p>");
             out.println("<a href='ViewBookServlet'>Livros</a>");
             out.println("</body>");
             out.println("</html>");

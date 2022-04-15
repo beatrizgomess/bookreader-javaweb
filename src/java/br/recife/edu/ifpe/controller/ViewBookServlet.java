@@ -36,7 +36,7 @@ public class ViewBookServlet extends HttpServlet {
           
             out.println("<!DOCTYPE html>");
             out.println("<html>");
-            out.println("<head><link rel=\"stylesheet\" type=\"text/css\" href=\"book_register.css\" media=\"screen\"/>");
+            out.println("<head><link rel=\"stylesheet\" type=\"text/css\" href=\"css/view_book.css\" media=\"screen\"/>");
             out.println("<title>Livros da sua TBR</title>");            
             out.println("</head>");
             out.println("<body>");

@@ -1,0 +1,50 @@
+body{
+    background: rgb(238, 216, 118);
+    text-align: center;
+    margin-top: 10%;
+   
+}
+
+
+
+.line{
+    border: 1px solid white;
+    margin-top: 1%;
+}
+h1{
+    
+    font-family:Courier, "Lucida Console", monospace;
+    font-size: 30px;
+
+}
+
+h1:hover{
+   color: rgb(218, 123, 0);
+}
+
+.info{
+    
+    font-family:Courier, "Lucida Console", monospace;
+    margin: auto;
+    font-size: 30px;
+    border: 1px solid white;
+    width: 500px;
+    padding: 20px;
+    border-radius: 10px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg,   rgb(161, 118, 207) 100%, rgb(161, 118, 207) 100%,  rgb(237, 227, 120) 100%);  
+    color: white;
+    margin-bottom: 20px;
+    
+}
+
+#home{
+    font-family:Courier, "Lucida Console", monospace;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+
+#home:hover{
+   color: rgb(218, 123, 0);
+}

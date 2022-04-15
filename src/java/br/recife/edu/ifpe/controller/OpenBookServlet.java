@@ -32,7 +32,7 @@ public class OpenBookServlet extends HttpServlet {
           
             out.println("<!DOCTYPE html>");
             out.println("<html>");
-            out.println("<head><link rel=\"stylesheet\" type=\"text/css\" href=\"open_book.css\" media=\"screen\"/>");
+            out.println("<head><link rel=\"stylesheet\" type=\"text/css\" href=\"css/open_book.css\" media=\"screen\"/>");
             out.println("<head>");
             out.println("<title>Detalhes do Livro</title>");            
             out.println("</head>");

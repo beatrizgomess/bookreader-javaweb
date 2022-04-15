@@ -32,6 +32,7 @@ public class ShowBookChangesServlet extends HttpServlet {
             out.println("<!DOCTYPE html>");
             out.println("<html>");
             out.println("<head>");
+            out.println("<head><link rel=\"stylesheet\" type=\"text/css\" href=\"css/update_book.css\" media=\"screen\"/>");
             out.println("<title>Servlet ShowBookChanges</title>");            
             out.println("</head>");
             out.println("<body>");
