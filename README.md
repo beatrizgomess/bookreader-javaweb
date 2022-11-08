@@ -2,15 +2,11 @@
 
 Hi! 
 
-Este projeto foi realizado em sala de aula na disciplina de web II. Trata-se de um CRUD simples de Livros e utiliza Tecnologias como Java, servlet, html e css
+This project was carried out in the classroom in the course of web II. It is a simple CRUD of Books and uses Technologies such as Java, servlet, html and css
 
-CRUD - Create, Read, Update e Delete; 
-Para rodar o projeto é preciso utilizar o netbeans 8.2 e Tomcat. 
-A arquitetura utilizada foi o MVC - Model, View e Controllers
-No package model estão outros dois packages de negocios e functions. Negocios trata-se da classe Books. E functions estão os métodos para realizar as atividades do CRUD
+CRUD - Create, Read, Update and Delete; To run the project you need to use netbeans 8.2 and Tomcat. The architecture used was MVC - Model, View and Controllers In the package model are two other business packages and functions. Business is the Books class. And functions are the methods to perform CRUD activities
 
-Já no package controllers estão as classes Servlet para interação cliente-Servidor
-E as telas estão dentro da pasta web
+Already in the controllers package are the Servlet classes for client-Server interaction AND the screens are inside the web folder
 
 
 
