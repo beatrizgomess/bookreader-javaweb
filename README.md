@@ -1,4 +1,4 @@
-# bookreader_javaweb
+# Book Reader 
 
 Hi! 
 
@@ -10,6 +10,3 @@ Already in the controllers package are the Servlet classes for client-Server int
 
 
 
-
-![277865740_5033564193395067_2770769863497273959_n](https://user-images.githubusercontent.com/78573126/162214900-8c8849cd-5811-4e07-b88a-7c7796db9896.jpg)
-![277599162_707336960700597_3189783116134174877_n](https://user-images.githubusercontent.com/78573126/162217122-d8688899-c1a0-4144-af67-5a24b418cb6a.jpg)
